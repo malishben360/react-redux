@@ -13,7 +13,7 @@ function CakeContainer(props) {
 /** State selector function */
 const mapStateToProps = (state) => {
     return {
-        numOfCakes: state.numOfCakes
+        numOfCakes: state.cake.numOfCakes
     }
 }
 /** Action dispatcher */
