@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ItemContainer />
+      <ItemContainer cake />
       <ItemContainer />
       <IceCreamContainer />
       <HookContainer />
