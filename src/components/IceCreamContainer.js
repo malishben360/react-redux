@@ -1,4 +1,4 @@
-import { buyIceCream } from "../redux/icecream/IceCreamActions";
+import { buyIceCream } from "../redux";
 import { connect } from 'react-redux';
 
 function IceCreamContainer(props) {
