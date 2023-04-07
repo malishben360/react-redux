@@ -10,6 +10,6 @@ import thunkMiddleware from 'redux-thunk';
  * Redux store's dispatch and getState methods.
  */
 
-const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunkMiddleware, logger)));
 
 export default store;
